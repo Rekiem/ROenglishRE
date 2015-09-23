@@ -11823,22 +11823,22 @@ SKILL_DESCRIPT = {
 	},
 	[SKID.ECL_SNOWFLIP] = {
 		"Snow Flip",
-		"^777777´«¼ÛÀÌÃ³·³ ÇÏ¾é°í ¸¸Áö¸é ¼ÕÀÌ ½Ã¸± µíÇÑ ²ÉÀÙ. µ¿»ó¿¡ °É¸±Áöµµ ¸ğ¸£´Ï ÁÖÀÇ.^000000",
+		"^777777ëˆˆì†¡ì´ì²˜ëŸ¼ í•˜ì–—ê³  ë§Œì§€ë©´ ì†ì´ ì‹œë¦´ ë“¯í•œ ê½ƒì. ë™ìƒì— ê±¸ë¦´ì§€ë„ ëª¨ë¥´ë‹ˆ ì£¼ì˜.^000000",
 		"^777777Recover from burning, bleeding, deep sleep and sleep.^000000"
 	},
 	[SKID.ECL_PEONYMAMY] = {
 		"Peony Mommy",
-		"^777777¾ö¸¶ Ç°Ã³·³ µû½ºÇÑ ¿Âµµ¸¦ °¡Áø ºĞÈ«»öÀÇ µµÅèÇÑ ²ÉÀÙ.^000000",
+		"^777777ì—„ë§ˆ í’ˆì²˜ëŸ¼ ë”°ìŠ¤í•œ ì˜¨ë„ë¥¼ ê°€ì§„ ë¶„í™ìƒ‰ì˜ ë„í†°í•œ ê½ƒì.^000000",
 		"^777777Recover from Frozen, Freezing and Crystallization.^000000"
 	},
 	[SKID.ECL_SADAGUI] = {
 		"Slapping Herb",
-		"^777777³¿»õ¸¦ ÄÚ·Î µéÀÌ¸¶½Ã¸é ¸Ó¸®¸¦ ¶§¸®´Â µíÇÑ °­·ÄÇÑ ÇâÀ» °¡Áø ÇãºêÀÙ. ¶§¶§·Î ºÎÀÛ¿ëµµ ÀÖ´Â µí.^000000",
+		"^777777ëƒ„ìƒˆë¥¼ ì½”ë¡œ ë“¤ì´ë§ˆì‹œë©´ ë¨¸ë¦¬ë¥¼ ë•Œë¦¬ëŠ” ë“¯í•œ ê°•ë ¬í•œ í–¥ì„ ê°€ì§„ í—ˆë¸Œì. ë•Œë•Œë¡œ ë¶€ì‘ìš©ë„ ìˆëŠ” ë“¯.^000000",
 		"^777777Recover from stun, fear, confuse and Hallucination.^000000"
 	},
 	[SKID.ECL_SEQUOIADUST] = {
 		"Yggdrasil Dust",
-		"^777777»ı¸íÀÇ ³ª¹«ÀÇ ÀÙ¿¡ ºÙ¾îÀÖ´ø ¸ÕÁö ºÎ½º·¯±âÁö¸¸ ¸ğ¾Æ¼­ »ç¿ëÇßÀ» ¶§´Â Á¤È­ ´É·ÂÀ» ¹ßÈÖÇÑ´Ù.^000000",
+		"^777777ìƒëª…ì˜ ë‚˜ë¬´ì˜ ìì— ë¶™ì–´ìˆë˜ ë¨¼ì§€ ë¶€ìŠ¤ëŸ¬ê¸°ì§€ë§Œ ëª¨ì•„ì„œ ì‚¬ìš©í–ˆì„ ë•ŒëŠ” ì •í™” ëŠ¥ë ¥ì„ ë°œíœ˜í•œë‹¤.^000000",
 		"^777777Recover from stone curse, darkness, curse, poison and decrease agility.^000000"
 	},
 	[SKID.GC_DARKCROW] = {
@@ -12264,6 +12264,7 @@ SKILL_DESCRIPT = {
 		"Description: ^777777Revolver exclusive skill. Jump to the targeted location and activate desperado.^000000",
 		"^777777If there is an obstacle between the caster and targeted cell, this skill fails to activate.^000000",
 		"^777777Higher skill level reduces the reuse delay.^000000"
+		"^777777skill use, consumes 1 coin.^000000"
 	}, 
 	[SKID.RL_P_ALTER] = {
 		"Platinum Alter",
@@ -12274,6 +12275,12 @@ SKILL_DESCRIPT = {
 		"^777777When activated, consumes all coins to increase ATK.^000000",
 		"^777777Skill level affects the ATK increase. Reduces the damage taken from undead monsters during the skill duration.^000000",
 		"^777777If the caster switches weapon or bullet during the duration, this buff will end.^000000"
+		"^777777This skill cannot be used with [Madness Canceller] and [Heat Barrel].^000000",
+		"[Level 1] : ^777777Duration 30 Seconds^000000",
+		"[Level 2] : ^777777Duration 45 Seconds^000000",
+		"[Level 3] : ^777777Duration 60 Seconds^000000",
+		"[Level 4] : ^777777Duration 75 Seconds^000000",
+		"[Level 5] : ^777777Duration 90 Seconds^000000"
 	}, 
 	[SKID.RL_FLICKER] = {
 		"Flicker",
